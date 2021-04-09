@@ -1,0 +1,16 @@
+﻿
+using Core.Entities;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Entities.Concrate
+{
+  public  class Customer:IEntitiy
+    {
+        public string CustomerId { get; set; }
+        public string ContactName { get; set; }
+        public string CompanyName { get; set; }
+        public string City { get; set; }
+    }
+}
